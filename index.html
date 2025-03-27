@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+<div class="header">
+    <img src="img/LogoPikachu.png" class="pikachu">
+    <h1 class="logo">Pokedex do SENAI</h1>
+    <img src="img/Pokebola-pokeball-png-0.png" class="pokebola">
+</div>
+<link rel="shortcut icon" href="img/Pokebola-pokeball-png-0.png">
+    </header>
+    <nav class="menu">
+        <div class="barrinhas">
+            <i class="bi bi-list"></i>
+        </div>
+        <ul>
+            <li class="item">
+                <a href="index.html">
+                    <span class="icon"><i class="bi bi-house"></i></span>
+                    <span class="txt-link">home</span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="fogo.html">
+                    <span class="icon"><i class="bi bi-fire"></i></span>
+                    <span class="txt-link">fogo</span>
+                </a>
+                <li class="item">
+                    <a href="planta.html">
+                      <span class="icon"><i class="bi bi-flower2"></i></span>
+                      <span class="txt-link">planta</span>
+                    </a>
+                    </li>
+                  <li class="item">
+                    <a href="normal.html">
+                      <span class="icon"><i class="bi bi-asterisk"></i></i></span>
+                      <span class="txt-link">normal</span>
+                    </a>
+                    <li class="item">
+                        <a href="eletrico.html">
+                          <span class="icon"><i class="bi bi-lightning-fill"></i></i></span>
+                          <span class="txt-link">eletrico</span>
+                        </a>
+                      </li>
+                      <li class="item">
+                        <a href="inseto.html">
+                          <span class="icon"><i class="bi bi-bug"></i></span>
+                          <span class="txt-link">inseto</span>
+                        </a>
+                      </li>
+                  </li>
+                  
+                  <li class="item">
+                    <a href="agua.html">
+                      <span class="icon"><i class="bi bi-droplet"></i></span>
+                      <span class="txt-link">água</span>
+                    </a>
+                    </li>
+                    <li class="item">
+                        <a href="gelo.html">
+                          <span class="icon"><i class="bi bi-snow2"></i></span>
+                          <span class="txt-link">gelo</span>
+                        </a>
+                        </li>
+                        <li class="item">
+                            <a href="pcisquico.html">
+                              <span class="icon"><i class="bi bi-infinity"></i></span>
+                              <span class="txt-link">pcisquico</span>
+                            </a>
+                            </li>
+            
+             <li class="item">
+                <a href="fantasma.html">
+                  <span class="icon"><i class="bi bi-hurricane"></i></span>
+                  <span class="txt-link">fantasma</span>
+                </a>
+                </li>
+                <li class="item">
+                    <a href="fada.html">
+                      <span class="icon"><i class="bi bi-stars"></i></span>
+                      <span class="txt-link">fada</span>
+                    </a>
+                    </li>
+                    <li class="item">
+                        <a href="dragao.html">
+                          <span class="icon"><i class="bi bi-brilliance"></i></span>
+                          <span class="txt-link">dragao</span>
+                        </a>
+                        </li>
+                        <li class="item">
+                            <a href="lutador.html">
+                              <span class="icon"><i class="bi bi-hammer"></i></span>
+                              <span class="txt-link">lutador</span>
+                            </a>
+                            </li>
+                            <li class="item">
+                                <a href="veneno.html">
+                                  <span class="icon"><i class="bi bi-eyedropper"></i></span>
+                                  <span class="txt-link">veneno</span>
+                                </a>
+                                </li>
+                                <li class="item">
+                                    <a href="pedra.html">
+                                      <span class="icon"><i class="bi bi-heptagon-fill"></i></span>
+                                      <span class="txt-link">pedra</span>
+                                    </a>
+                                    </li>
+             </ul>
+    </nav>
+    <main>
+        <div class="card Grass" onclick="playAudio('audio1')">
+            <img src="img/bulbasaur.avif" alt="foto">
+            <p>Bulbasaur</p>
+            <p>0001</p>
+            <p>grama</p>
+            <audio id="audio1"  src="mp3/Voicy_2- Bulbasaur Sounds_ Pokemon Snap.mp3"> som</audio>
+            </div>
+        <label for="flip" class="flip-label"></label>
+        </div>
+        <div class="card Grass">
+            <img src="img/ivysaur.avif" alt="foto">
+            <p>	Ivysaur</p>
+            <p>0002</p>
+            <p class="box_grass">grama</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="img/venusaur.avif" alt="foto">
+            <p>Venusaur</p>
+            <p>0003</p>
+            <p>grama</p>
+        </div>
+
+        <div class="card Fire" onclick="playAudio('audio2')">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/charmander.avif" alt="foto">
+            <p>Charmander</p>
+            <p>0004</p>
+            <p>fogo</p>
+            <audio id="audio2"  src="mp3/Voicy_Charmander Anime Cry 2.mp3"> som</audio>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/charmeleon.avif" onclick="playAudio('audio3')">
+            <p>	Charmeleon</p>
+            <p>0005</p>
+            <p>fogo</p>
+            <audio id="audio3"  src="mp3/Voicy_Charmeleon Pokemon - 5.mp3"> som</audio>
+        </div>
+        
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/charizard.avif" onclick="playAudio('audio4')">
+            <p>Charizard</p>
+            <p>0006</p>
+            <p>fogo</p>
+            <audio id="audio4"  src="mp3/Voicy_Charizard sound effect 2.mp3"> som</audio>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/squirtle.avif" alt="foto">
+            <p>	Squirtle</p>
+            <p>0007</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/wartortle.avif" alt="foto">
+            <p>Wartortle</p>
+            <p>0008</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/blastoise.avif" alt="foto">
+            <p>Blastoise</p>
+            <p>0009</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/caterpie.avif" alt="foto">
+            <p>Caterpie</p>
+            <p>0010</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/metapod.avif" alt="foto">
+            <p>	Metapod</p>
+            <p>0011</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/butterfree.avif" alt="foto">
+            <p>Butterfree</p>
+            <p>0012</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/weedle.avif" alt="foto">
+            <p>Weedle</p>
+            <p>0013</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/kakuna.avif" alt="foto">
+            <p>Kakuna</p>
+            <p>0014</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/beedrill.avif" alt="foto">
+            <p>Beedrill</p>
+            <p>0015</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/pidgey.avif" alt="foto">
+            <p>	Pidgey</p>
+            <p>0016</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/pidgeotto.avif" alt="foto">
+            <p>Pidgeotto</p>
+            <p>0017</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/pidgeot.avif" alt="foto">
+            <p>	Pidgeot</p>
+            <p>0018</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/rattata.avif" alt="foto">
+            <p>	Rattata</p>
+            <p>0019</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/raticate.avif" alt="foto">
+            <p>Raticate</p>
+            <p>0020</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/spearow.avif" alt="foto">
+            <p>Spearow</p>
+            <p>0021</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/fearow.avif" alt="foto">
+            <p>	Fearow</p>
+            <p>0022</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/ekans.avif" alt="foto">
+            <p>Ekans</p>
+            <p>0023</p>
+            <p>veneno</p>
+        </div>
+        
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/arbok.avif" alt="foto">
+            <p>Arbok</p>
+            <p>0024</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/pikachu.avif" onclick="playAudio('audio5')">
+            <p>Pikachu</p>
+            <p>0025</p>
+            <p>eletrico</p>
+            <audio id="audio5"  src="mp3/Voicy_Pikachu soundbite.mp3"> som</audio>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/raichu.avif" alt="foto">
+            <p>Raichu</p>
+            <p>0026</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/sandshrew.avif" alt="foto">
+            <p>Sandshrew</p>
+            <p>0027</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/sandslash.avif" alt="foto">
+            <p>Sandslash</p>
+            <p>0028</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/nidoran-f.avif" alt="foto">
+            <p>Nidoran</p>
+            <p>0029</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/nidorina.avif" alt="foto">
+            <p>Nidorina</p>
+            <p>0030</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/nidoqueen.avif" alt="foto">
+            <p>	Nidoqueen</p>
+            <p>0031</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/nidoran-m.avif" alt="foto">
+            <p>Nidoran</p>
+            <p>0032</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/nidorino.avif" alt="foto">
+            <p>Nidorino</p>
+            <p>0033</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/nidoking.avif" alt="foto">
+            <p>	Nidoking</p>
+            <p>0034</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Fairy">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/clefairy.avif" " alt="foto">
+            <p>Clefairy</p>
+            <p>0035</p>
+            <p>fada</p>
+        </div>
+
+        <div class="card Fairy">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/clefable.avif" alt="foto">
+            <p>	Clefable</p>
+            <p>0036</p>
+            <p>fada</p>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/vulpix.avif" alt="foto">
+            <p>	Vulpix</p>
+            <p>0037	</p>
+            <p>fogo</p>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/ninetales.avif" alt="foto">
+            <p>Ninetales</p>
+            <p>0038</p>
+            <p>fogo</p>
+        </div>
+
+        <div class="card Fairy">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/jigglypuff.avif" alt="foto">
+            <p>Jigglypuff</p>
+            <p>0039</p>
+            <p>fada</p>
+        </div>
+
+        <div class="card Fairy">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/wigglytuff.avif" alt="foto">
+            <p>Wigglytuff</p>
+            <p>0040</p>
+            <p>fada</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/zubat.avif" alt="foto">
+            <p>Zubat</p>
+            <p>0041</p>
+            <p>veneno</p>
+        </div>
+        
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/golbat.avif" alt="foto">
+            <p>Golbat</p>
+            <p>0042</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/oddish.avif" alt="foto">
+            <p>Oddish</p>
+            <p>0043</p>
+            <p>planta</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/gloom.avif" alt="foto">
+            <p>	Gloom</p>
+            <p>0044</p>
+            <p>planta</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/vileplume.avif" alt="foto">
+            <p>Vileplume</p>
+            <p>0045</p>
+            <p>planta</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/paras.avif" alt="foto">
+            <p>Paras</p>
+            <p>0046</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/parasect.avif" alt="foto">
+            <p>Parasect</p>
+            <p>0047</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/venonat.avif" alt="foto">
+            <p>Venonat</p>
+            <p>0048</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/venomoth.avif" alt="foto">
+            <p>Venomoth</p>
+            <p>0049</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/diglett.avif" alt="foto">
+            <p>Diglett</p>
+            <p>0050</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/dugtrio.avif" alt="foto">
+            <p>Dugtrio</p>
+            <p>0051</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/meowth.avif" alt="foto">
+            <p>Meowth</p>
+            <p>0052</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/persian.avif" alt="foto">
+            <p>Persian</p>
+            <p>0053</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/psyduck.avif" alt="foto">
+            <p>Psyduck</p>
+            <p>0054</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/golduck.avif" alt="foto">
+            <p>Golduck</p>
+            <p>0055</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Fighting">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/mankey.avif" alt="foto">
+            <p>Mankey</p>
+            <p>0056</p>
+            <p>lutador</p>
+        </div>
+
+        <div class="card Fighting">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/primeape.avif" alt="foto">
+            <p>Primeape</p>
+            <p>0057</p>
+            <p>lutador</p>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/growlithe.avif" alt="foto">
+            <p>Growlithe</p>
+            <p>0058</p>
+            <p>fogo</p>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/arcanine.avif" alt="foto">
+            <p>Arcanine</p>
+            <p>0059</p>
+            <p>fogo</p>
+        </div>
+        
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/poliwag.avif" alt="foto">
+            <p>Poliwag</p>
+            <p>0060</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/poliwhirl.avif" alt="foto">
+            <p>Poliwhirl</p>
+            <p>0061</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/poliwrath.avif" alt="foto">
+            <p>	Poliwrath</p>
+            <p>0062</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/abra.avif" alt="foto">
+            <p>Abra</p>
+            <p>0063</p>
+            <p>psciquico</p>
+        </div>
+
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/kadabra.avif" alt="foto">
+            <p>Kadabra</p>
+            <p>0064</p>
+            <p>psciquico</p>
+        </div>
+
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/alakazam.avif" alt="foto">
+            <p>Alakazam</p>
+            <p>0065</p>
+            <p>psciquico</p>
+        </div>
+
+        <div class="card Fighting">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/machop.avif" alt="foto">
+            <p>Machop</p>
+            <p>0066</p>
+            <p>lutador</p>
+        </div>
+
+        <div class="card Fighting">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/machoke.avif" alt="foto">
+            <p>Machoke</p>
+            <p>0067</p>
+            <p>~lutador</p>
+        </div>
+
+        <div class="card Fighting">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/machamp.avif" alt="foto">
+            <p>Machamp</p>
+            <p>0068</p>
+            <p>lutador</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/bellsprout.avif" alt="foto">
+            <p>Bellsprout</p>
+            <p>0069</p>
+            <p>planta</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/weepinbell.avif" alt="foto">
+            <p>	Weepinbell</p>
+            <p>0070</p>
+            <p>planta</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/victreebel.avif" alt="foto">
+            <p>Victreebel</p>
+            <p>0071</p>
+            <p>planta</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/tentacool.avif" alt="foto">
+            <p>Tentacool</p>
+            <p>0072</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/tentacruel.avif" alt="foto">
+            <p>Tentacruel</p>
+            <p>0073</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/geodude.avif" alt="foto">
+            <p>Geodude</p>
+            <p>0074</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/graveler.avif" alt="foto">
+            <p>Graveler</p>
+            <p>0075</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/golem.avif" alt="foto">
+            <p>Golem</p>
+            <p>0076</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/ponyta.avif" alt="foto">
+            <p>Ponyta</p>
+            <p>0077</p>
+            <p>fogo</p>
+        </div>
+        
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/rapidash.avif" alt="foto">
+            <p>Rapidash</p>
+            <p>0078</p>
+            <p>fogo</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/slowpoke.avif" alt="foto">
+            <p>Slowpoke</p>
+            <p>0079</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/slowbro.avif" alt="foto">
+            <p>	Slowbro</p>
+            <p>0080</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/magnemite.avif" alt="foto">
+            <p>Magnemite</p>
+            <p>0081</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/magneton.avif" alt="foto">
+            <p>Magneton</p>
+            <p>0082</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/farfetchd.avif" alt="foto">
+            <p>Farfetch'd</p>
+            <p>0083</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/doduo.avif" alt="foto">
+            <p>Doduo</p>
+            <p>0084</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/dodrio.avif" alt="foto">
+            <p>Dodrio</p>
+            <p>0085</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/seel.avif" alt="foto">
+            <p>	Seel</p>
+            <p>0086</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/dewgong.avif" alt="foto">
+            <p>Dewgong</p>
+            <p>0087</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/grimer.avif" alt="foto">
+            <p>Grimer</p>
+            <p>0088</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/muk.avif" alt="foto">
+            <p>Muk</p>
+            <p>0089</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/shellder.avif" alt="foto">
+            <p>Shellder</p>
+            <p>0090</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/cloyster.avif" alt="foto">
+            <p>Cloyster</p>
+            <p>0091</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Ghost">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/gastly.avif" alt="foto">
+            <p>Gastly</p>
+            <p>0092</p>
+            <p>fantasma</p>
+        </div>
+
+        <div class="card Ghost">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/haunter.avif" alt="foto">
+            <p>	Haunter</p>
+            <p>0093</p>
+            <p>fantasma</p>
+        </div>
+
+        <div class="card Ghost">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/gengar.avif" alt="foto">
+            <p>Gengar</p>
+            <p>0094</p>
+            <p>fantasma</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/onix.avif" alt="foto">
+            <p>Onix</p>
+            <p>0095</p>
+            <p>pedra</p>
+        </div>
+        
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/drowzee.avif" alt="foto">
+            <p>Drowzee</p>
+            <p>0096</p>
+            <p>psciquico</p>
+        </div>
+
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/hypno.avif" alt="foto">
+            <p>Hypno</p>
+            <p>0097</p>
+            <p>psciquico</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/krabby.avif" alt="foto">
+            <p>Krabby</p>
+            <p>0098</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/kingler.avif"alt="foto">
+            <p>Kingler</p>
+            <p>0099</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/voltorb.avif" alt="foto">
+            <p>Voltorb</p>
+            <p>0100</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/electrode.avif" alt="foto">
+            <p>Electrode</p>
+            <p>0101</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/exeggcute.avif" alt="foto">
+            <p>Exeggcute</p>
+            <p>0102</p>
+            <p>planta</p>
+        </div>
+
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/exeggutor.avif" alt="foto">
+            <p>Exeggutor</p>
+            <p>0103</p>
+            <p>planta</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/cubone.avif" alt="foto">
+            <p>Cubone</p>
+            <p>0104</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/marowak.avif" alt="foto">
+            <p>Marowak</p>
+            <p>0105</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Fighting">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/hitmonlee.avif" alt="foto">
+            <p>Hitmonlee</p>
+            <p>0106</p>
+            <p>lutador</p>
+        </div>
+
+        <div class="card Fighting">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/hitmonchan.avif" alt="foto">
+            <p>Hitmonchan</p>
+            <p>0107</p>
+            <p>lutador</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/lickitung.avif" alt="foto">
+            <p>Lickitung</p>
+            <p>0108</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/koffing.avif" alt="foto">
+            <p>Koffing</p>
+            <p>0109</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Poison">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/weezing.avif" alt="foto">
+            <p>Weezing</p>
+            <p>0110</p>
+            <p>veneno</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/rhyhorn.avif" alt="foto">
+            <p>Rhyhorn</p>
+            <p>0111</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Ground">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/rhydon.avif" alt="foto">
+            <p>Rhydon</p>
+            <p>0112</p>
+            <p>terra</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/chansey.avif" alt="foto">
+            <p>Chansey</p>
+            <p>0113</p>
+            <p>normal</p>
+        </div>
+        
+        <div class="card Grass">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/tangela.avif" alt="foto">
+            <p>Tangela</p>
+            <p>0114</p>
+            <p>planta
+            </p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/kangaskhan.avif" alt="foto">
+            <p>Kangaskhan</p>
+            <p>0115</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/horsea.avif" alt="foto">
+            <p>Horsea</p>
+            <p>0116</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/seadra.avif" alt="foto">
+            <p>	Seadra</p>
+            <p>0117</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/goldeen.avif" alt="foto">
+            <p>Goldeen</p>
+            <p>0118</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/seaking.avif" alt="foto">
+            <p>Seaking</p>
+            <p>0119</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/staryu.avif" alt="foto">
+            <p>Staryu</p>
+            <p>0120</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/starmie.avif" alt="foto">
+            <p>Starmie</p>
+            <p>0121</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/mr-mime.avif" alt="foto">
+            <p>Mr. Mime</p>
+            <p>0122</p>
+            <p>psciquico</p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/scyther.avif" alt="foto">
+            <p>Scyther</p>
+            <p>0123</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Ice">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/jynx.avif" alt="foto">
+            <p>Jynx</p>
+            <p>0124</p>
+            <p>gelo</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/electabuzz.avif" alt="foto">
+            <p>Electabuzz</p>
+            <p>0125</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/magmar.avif" alt="foto">
+            <p>Magmar</p>
+            <p>0126</p>
+            <p>fogo
+            </p>
+        </div>
+
+        <div class="card Bug">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/pinsir.avif" alt="foto">
+            <p>Pinsir</p>
+            <p>0127</p>
+            <p>inseto</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/tauros.avif" alt="foto">
+            <p>Tauros</p>
+            <p>0128</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/magikarp.avif" alt="foto">
+            <p>Magikarp</p>
+            <p>0129</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/gyarados.avif" alt="foto">
+            <p>Gyarados</p>
+            <p>0130</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Ice">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/lapras.avif" alt="foto">
+            <p>Lapras</p>
+            <p>0131</p>
+            <p>gelo</p>
+        </div>
+        
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/ditto.avif" alt="foto">
+            <p>Ditto</p>
+            <p>0132</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/eevee.avif" alt="foto">
+            <p>Eevee</p>
+            <p>0133</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Water">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/vaporeon.avif" alt="foto">
+            <p>Vaporeon</p>
+            <p>0134</p>
+            <p>água</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/jolteon.avif" alt="foto">
+            <p>	Jolteon</p>
+            <p>0135</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/flareon.avif" alt="foto">
+            <p>Flareon</p>
+            <p>0136</p>
+            <p>fogo</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/porygon.avif" alt="foto">
+            <p>	Porygon</p>
+            <p>0137</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/omanyte.avif" alt="foto">
+            <p>Omanyte</p>
+            <p>0138</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/omastar.avif" alt="foto">
+            <p>Omastar</p>
+            <p>0139</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/kabuto.avif" alt="foto">
+            <p>Kabuto</p>
+            <p>0140</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/kabutops.avif" alt="foto">
+            <p>Kabutops</p>
+            <p>0141</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Rock">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/aerodactyl.avif" alt="foto">
+            <p>Aerodactyl</p>
+            <p>0142</p>
+            <p>pedra</p>
+        </div>
+
+        <div class="card Normal">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/snorlax.avif" alt="foto">
+            <p>Snorlax</p>
+            <p>0143</p>
+            <p>normal</p>
+        </div>
+
+        <div class="card Ice">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/articuno.avif" alt="foto">
+            <p>	Articuno</p>
+            <p>0144</p>
+            <p>gelo</p>
+        </div>
+
+        <div class="card Electric">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/zapdos.avif" alt="foto">
+            <p>	Zapdos</p>
+            <p>0145</p>
+            <p>eletrico</p>
+        </div>
+
+        <div class="card Fire">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/moltres.avif" alt="foto">
+            <p>Moltres</p>
+            <p>0146</p>
+            <p>fogo</p>
+        </div>
+
+        <div class="card Dragon">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/dratini.avif" alt="foto">
+            <p>Dratini</p>
+            <p>0147</p>
+            <p>dragão</p>
+        </div>
+
+        <div class="card Dragon">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/dragonair.avif" alt="foto">
+            <p>Dragonair</p>
+            <p>0148</p>
+            <p>dragão</p>
+        </div>
+
+        <div class="card Dragon">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/dragonite.avif" alt="foto">
+            <p>Dragonite</p>
+            <p>0149</p>
+            <p>dragão</p>
+        </div>
+        
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/mewtwo.avif" alt="foto">
+            <p>	Mewtwo</p>
+            <p>0150</p>
+            <p>psciquico</p>
+        </div>
+
+        <div class="card Psychic">
+            <img src="https://img.pokemondb.net/sprites/scarlet-violet/icon/avif/mew.avif" alt="foto">
+            <p>Mew</p>
+            <p>0151</p>
+            <p>psciquico</p>
+        </div>
+        
+    </main>
+    <footer>
+        <div >
+            All content &amp; design &copy; Pokémon Database, 2008-2025.
+            Pokémon images &amp; names &copy; 1995-2025 Nintendo/Game Freak.
+            <br>
+            Feito por Julio 😾
+        </div>
+    </footer>
+
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card")), {
+            max: 30,
+            speed:500,
+            glare: true,
+            glare: 0.5,
+        }
+    </script>
+   <script>
+    let currentAudio = null; // Variável para armazenar o áudio atual
+    
+    
+    function playAudio(id) {
+        // Verifica se há algum áudio tocando e o para
+        if (currentAudio && !currentAudio.paused) {
+            stopAudio();
+        }
+    
+        currentAudio = document.getElementById(id);
+        currentAudio.play();
+    }
+    
+    
+    function stopAudio() {
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0; // Reseta o tempo para o início
+        }
+    }
+    
+    
+    document.addEventListener("click", function(event) {
+        let cards = document.querySelectorAll(".card");
+        let clickedInsideCard = false;
+    
+     
+        cards.forEach(card => {
+            if (card.contains(event.target)) {
+                clickedInsideCard = true;
+            }
+        });
+    
+     
+        if (!clickedInsideCard && currentAudio) {
+            stopAudio();
+        }
+    });
+    </script>
+    
+</body>
+</html>

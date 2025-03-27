@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+display: flex;
+flex-direction: column;
+background-image: url(https://wallpaper.forfun.com/fetch/3f/3f7b1e7a9b13a9144575bfe161f8207c.jpeg);
+background-position: center;
+height: 100vh;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(102, 102, 102));
+    padding: 20px;
+}
+.logo {
+    color: white;
+    font-size: 32px;
+    margin-right: 20px; 
+    font-family: 'Press Start 2P', cursive;
+}
+main {
+flex: 1;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding: 30px;
+flex-wrap: wrap;
+gap: 5px;
+
+}
+
+.card {
+    margin-left: 125px;
+    margin-right: 0px;
+    width: 250px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    outline: 8px solid rgb(255, 255, 255); 
+    outline-offset: -15px; 
+    font-size: 200px;
+    align-items: center;
+}
+.card img {
+width: 175px;
+height: 175px;
+object-fit: cover;
+margin: 5px 10px;
+}
+.card h2 {
+    margin-bottom: 60px;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.card p {
+    margin-bottom: 20px 0px;
+    font-style: normal;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+.Grass 
+{
+    background-image: linear-gradient(45deg, green, white);
+}
+.Fire
+{
+    background-image: linear-gradient(45deg, red, white);
+}
+.Water
+{
+    background-image: linear-gradient(45deg, blue, white);
+}
+.Rock
+{
+    background-image: linear-gradient(45deg, #4b2a00, white);
+}
+.Poison
+{
+    background-image: linear-gradient(45deg, #7b0ce2, white);
+}
+.Normal
+{
+    background-image: linear-gradient(45deg, rgb(112, 112, 112), white);
+}
+.Fighting
+{
+    background-image: linear-gradient(45deg, orange, white);
+}
+.Ground
+{
+    background-image: linear-gradient(45deg, rgb(87, 60, 9), white);
+}
+.Bug
+{
+    background-image: linear-gradient(45deg, rgb(209, 231, 86), white);
+}
+.Fairy
+{
+    background-image: linear-gradient(45deg, rgb(255, 0, 234), white);
+}
+.Electric
+{
+    background-image: linear-gradient(45deg, yellow, white);
+}
+.Flying
+{
+    background-image: linear-gradient(45deg, rgb(167, 237, 255), white);
+    margin-top: 150px;
+    margin-right: 170px;
+    margin-left: 170px;
+}
+.Psychic
+{
+    background-image: linear-gradient(45deg, rgb(138, 23, 113), white);
+}
+.Ice
+{
+    background-image: linear-gradient(45deg, rgb(99, 224, 255), white);
+}
+.Steel
+{
+    background-image: linear-gradient(45deg, rgb(56, 56, 56), white);
+    }
+.Ghost
+{
+    background-image: linear-gradient(45deg, rgb(46, 3, 59), white);
+}
+.Dragon
+{
+    background-image: linear-gradient(45deg, rgb(6, 6, 71), white);
+}
+.Dark 
+{
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(48, 46, 46));
+}
+footer {
+    height: 100px;
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+text-align: center;
+align-content: center;
+font-size: 20px;
+font-style: normal;
+}
+h1{
+    text-align: center;
+    align-content: center;
+}
+.pikachu {
+    width: 120px; 
+    height: auto;
+    position: absolute; 
+    left: 400px; 
+    top: 6%; 
+    transform: translateY(-50%); 
+    display: fixed;
+    background-attachment: fixed;
+}
+.pokebola {
+    width: 100px; 
+    height: auto;
+    position: absolute; 
+    right: 400px; 
+    top: 7%; 
+    transform: translateY(-50%); 
+    display: fixed;
+    background-attachment: fixed;
+}
+nav.menu{
+    width: 80px;
+    height:100%;
+    background-color: #000;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2;
+    overflow-y: auto;
+}
+nav.menu:hover{
+    width: 170px;
+}
+.barrinhas{
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.barrinhas>i{
+    color: aliceblue;
+    font-size: xx-large;
+    cursor: pointer;
+}
+ul{
+    height: 100%;
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    }
+
+ul li.item{
+    transition: .5s;
+}
+ul li.item:hover{
+    background: red;
+}
+ul li.item a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+    margin-top: 35px;
+}
+ul li.item a .txt-link{
+    margin-left: 31px;
+}
+ul li.item a .icon> i{
+    font-size: 30px;
+    margin-left: 1px;
+}
+.item {
+    position: relative;
+}
+nav.menu::-webkit-scrollbar {
+    width: 3px;
+    background-color: transparent; 
+  }
+  
+  nav.menu::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 4px; 
+  }
+  
+  nav.menu::-webkit-scrollbar-thumb:hover {
+    background-color: #ff0000; 
+  }
+  
